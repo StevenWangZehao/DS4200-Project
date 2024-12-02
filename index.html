@@ -36,6 +36,15 @@
                 Our analysis uses the dataset called “students_mental_health_survey.csv” which contains the following mental health evaluations of students. The data has 7022 rows and 20 features. Detailed information about the important metric features is listed in the following table:
 
             </p>
+            <button id = 'navigationButton'>See the full csv file</button>
+            <script>    
+                const navigationButton = document.getElementById('navigationButton')
+                navigationButton.addEventListener('click', function(){
+                    window.location.href = 'students_mental_health_survey.html';
+                }
+
+                )
+            </script>
             <table>
                 <thead>
                     <tr>
